@@ -31,7 +31,6 @@ services:
     ports:
       - "3000:3000"
     environment:
-      - EXT_PUBLIC_API_URL=http://localhost:8080
       - NODE_ENV=production
     depends_on:
       - backend
